@@ -3,6 +3,37 @@
    font-family: 'Poppins', sans-serif;
    font-weight: 300;
 }
+@media screen and (max-width:768px){
+   .container{
+      padding: 10vw 10vh;
+       width: 100vw;
+       height: 100vh;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+   
+   }
+   .location{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: left;
+      width: 70vw;
+      padding-bottom: 5vh;
+   }
+   .weathercard{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: end;
+      border: 1px solid black;
+      border-radius: 15px;
+      padding:  20vw 10vw 5vw 10vw;
+      width: 70vw;
+   
+   }
+}
+@media screen and (min-width:769px){
 .container{
    padding: 10vw 10vh;
     width: 100vw;
@@ -11,6 +42,28 @@
     justify-content: center;
 
 
+
+}
+.location{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 10vh;
+   text-align: left;
+   padding-right: 5vw;
+   width: 30vw;
+}
+.weathercard{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid black;
+   border-radius: 15px;
+   padding: 10vw;
+   width: 40vw;
+
+}
 }
 .main{
    
@@ -56,15 +109,7 @@
    text-decoration: none;
    color: #8884FF
 }
-.location{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   padding-top: 10vh;
-   text-align: left;
-   padding-right: 5vw;
-   width: 30vw;
-}
+
 h1{
    font-size: 80px;
 }
@@ -72,14 +117,3 @@ h2{
    font-size: 50px;
 }
 
-.weathercard{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   border: 1px solid black;
-   border-radius: 15px;
-   padding: 10vw;
-   width: 40vw;
-
-}

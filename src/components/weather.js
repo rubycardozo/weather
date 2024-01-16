@@ -3,7 +3,7 @@ import './styles.css';
 import moment from 'moment';
 import Location from './location';
 import Info from './info';
-import './setupEnv'; 
+
 
 function Weather() {
 
