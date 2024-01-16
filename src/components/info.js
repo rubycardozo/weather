@@ -5,6 +5,7 @@ import Drizzle from './images/drizzle.png'
 import Rain from './images/rain.png'
 import Clouds from './images/clouds.png'
 import Thunderstorm from './images/thunderstorm.png'
+import Misty from './images/Misty.png'
 
 const Info = ({ weatherData }) => {
   const [condition, setCondition] = useState("Unknown");
