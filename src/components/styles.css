@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;400&family=Karla:wght@200;400&family=Poppins:wght@200;300;400&display=swap');*{
+   background-color: #F1F2F6;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 300;
+}
 .container{
+   padding: 10vw 10vh;
     width: 100vw;
     height: 100vh;
-    background-position: center;
-    background-size: 100% 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    font-family:Arial, Helvetica, sans-serif
+
+
 }
 .main{
    
@@ -21,4 +25,58 @@
   .info{
      font-size: 20px;
   }
+.navbar{
+   display: flex;
+   justify-content: flex-end; 
+   padding-right: 5vw;
+   padding-top: 2vw;
 
+}
+.navbar ul{
+   list-style: none;
+   display: flex;
+
+
+}
+
+.navbar li{
+   font-size: 16px;
+   text-align: center;
+   padding-left: 2vw;
+}
+.navbar a{
+   text-decoration: none;
+   color: black;
+}
+
+.navbar a:hover{
+   text-decoration: none;
+   color: #8884FF
+}
+.location{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 10vh;
+   text-align: left;
+   padding-right: 5vw;
+   width: 30vw;
+}
+h1{
+   font-size: 80px;
+}
+h2{
+   font-size: 50px;
+}
+
+.weathercard{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid black;
+   border-radius: 15px;
+   padding: 10vw;
+   width: 40vw;
+
+}
