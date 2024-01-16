@@ -30,6 +30,9 @@
    justify-content: flex-end; 
    padding-right: 5vw;
    padding-top: 2vw;
+   position: fixed;
+   top: 0;
+   width: 100%;
 
 }
 .navbar ul{

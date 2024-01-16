@@ -38,7 +38,7 @@ const Info = ({ weatherData }) => {
 
   return (
     <div className='weathercard'>
-      <div  src={newIcon}></div>
+      <div  src={icon}></div>
       <h2>{weatherData.main?.temp} &deg;</h2>
       <p>{condition}</p>
       <p>Wind Speed: {weatherData.wind?.speed} mph</p>
